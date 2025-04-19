@@ -5,3 +5,9 @@ body {
 h1 {
     color: white;
 }
+
+h1:hover {
+    color: red;
+    font-weight: bold;
+    transition: 300ms all;
+}

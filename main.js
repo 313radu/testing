@@ -25,7 +25,7 @@ for (let i = 0; i < xArray.length-1; i++) {
 // Plot Line
 ctx.moveTo(0, intercept);
 ctx.lineTo(xMax, f(xMax));
-ctx.strokeStyle = "black";
+ctx.strokeStyle = "yellow";
 ctx.stroke();
 
 // Line Function<br>
